@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Burslu Program Bulucu//TR
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b43c34b4-d4e8-4b04-9590-0c74f10f6d8d@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): DAAD EPOS / Development-Related Postgraduate Courses
+DESCRIPTION:Ülke: Almanya | Derece: Master | Fon: Tam Burs\nNot: Programa göre Ağustos–Ekim arası\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777
+URL:https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): DAAD EPOS / Development-Related Postgraduate Courses
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2d816367-3e9c-4589-9f25-a183d67353e1@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Leiden University Excellence Scholarship (LExS)
+DESCRIPTION:Ülke: Hollanda | Derece: Master | Fon: Burs (kısmi/değişken)\nNot: Eylül girişi için 1 Şubat\, Şubat girişi için 1 Ekim\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs
+URL:https://www.universiteitleiden.nl/en/scholarships/sea/leiden-university-excellence-scholarship-lexs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Leiden University Excellence Scholarship (LExS)
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c2c00ad5-0b98-4841-8d56-cda62c561273@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Radboud Scholarship Programme
+DESCRIPTION:Ülke: Hollanda | Derece: Master | Fon: Burs (kısmi/değişken)\nNot: 2026-27 girişi için son başvuru geçti (31 Ocak)\; bir sonraki döngü de genelde Ocak sonu\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme
+URL:https://www.ru.nl/en/education/scholarships/radboud-scholarship-programme
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Radboud Scholarship Programme
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19701b4a-a8d5-4903-82bf-70ccab876104@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
+DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Tam Burs\nNot: Geçmiş yıllarda Türkiye için genellikle Kasım–Aralık\; 2026-27 için resmi tarih Ağustos 2026'da netleşecek\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html
+URL:https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:88c97d54-97da-4b8f-b1aa-cfb5d2c03c5e@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Devlet PhD Bursları (tüm devlet üniversiteleri\, 'borsa di dottorato')
+DESCRIPTION:Ülke: İtalya | Derece: PhD | Fon: Tam Burs\nNot: Çağrılar Mayıs–Temmuz (36. döngü tarzı yıllık)\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.universitaly.it/
+URL:https://www.universitaly.it/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Devlet PhD Bursları (tüm devlet üniversiteleri\, 'borsa di dottorato')
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:582b7055-1baf-43bd-a140-a034e323623c@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Ca' Foscari Venedik / Bologna / Padova – Language Sciences PhD
+DESCRIPTION:Ülke: İtalya | Derece: PhD | Fon: Tam Burs\nNot: Genellikle Mayıs–Haziran\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.unive.it/pag/7987/
+URL:https://www.unive.it/pag/7987/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Ca' Foscari Venedik / Bologna / Padova – Language Sciences PhD
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc019c8-e2c6-4ed7-98b9-d52a0e582e00@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): 'la Caixa' Foundation Doctoral INPhINIT Fellowships
+DESCRIPTION:Ülke: İspanya | Derece: PhD | Fon: Tam Burs\nNot: Yıllık: Incoming çağrı ~Ocak sonu\, Retaining çağrı ~Şubat ortası\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://lacaixafoundation.org/en/doctoral-inphinit-fellowships
+URL:https://lacaixafoundation.org/en/doctoral-inphinit-fellowships
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): 'la Caixa' Foundation Doctoral INPhINIT Fellowships
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f40951ac-4c6e-4c75-ae24-5575cfd91c9e@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Erasmus Mundus Joint Masters (ör. dil eğitimi/çok dillilik programları)
+DESCRIPTION:Ülke: İspanya | Derece: Master | Fon: Tam Burs\nNot: Genellikle Aralık–Şubat\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en
+URL:https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Erasmus Mundus Joint Masters (ör. dil eğitimi/çok dillilik programları)
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7af5a810-1a35-422f-a508-657ec3cd5043@burslu-program-bulucu
+DTSTAMP:20260718T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): TELME – Erasmus Mundus Joint Master (Teaching Foreign Languages in Multicultural Environments)
+DESCRIPTION:Ülke: İspanya | Derece: Master | Fon: Tam Burs\nNot: İlk çağrı 20 Ocak 2026'da kapandı\; sonraki yıllar için benzer takvim (Ocak ortası) beklenir\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://telme.hypotheses.org/
+URL:https://telme.hypotheses.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): TELME – Erasmus Mundus Joint Master (Teaching Foreign Languages in Multicultural Environments)
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
