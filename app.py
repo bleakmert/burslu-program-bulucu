@@ -77,6 +77,10 @@ for p in results:
             st.markdown(f"**Alan:** {p['field']}")
             st.markdown(f"**Profil uyumu:** {p['fit']}")
             st.markdown(f"**Sponsorluk / vize:** {p['sponsor_note']}")
+            if p.get("requirements"):
+                st.markdown("**📋 Başvuru için gerekenler:**")
+                for item in p["requirements"]:
+                    st.checkbox(item, key=f"{p['name']}::{item}")
         with c2:
             st.markdown(f"**Fon:** {p['funding']}")
             st.markdown(f"**Son başvuru (yaklaşık):** {p['deadline_hint']}")

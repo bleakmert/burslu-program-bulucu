@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Burslu Program Bulucu//TR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:b43c34b4-d4e8-4b04-9590-0c74f10f6d8d@burslu-program-bulucu
+UID:0c277260-6afe-43c4-83aa-cc50b6464366@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
@@ -17,7 +17,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2d816367-3e9c-4589-9f25-a183d67353e1@burslu-program-bulucu
+UID:cf6df6f5-dbd0-4653-a405-421ccef0df50@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
@@ -31,7 +31,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c2c00ad5-0b98-4841-8d56-cda62c561273@burslu-program-bulucu
+UID:1180039b-4caf-4e96-8842-016ace1b5cd4@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
@@ -45,7 +45,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:19701b4a-a8d5-4903-82bf-70ccab876104@burslu-program-bulucu
+UID:546db92a-d176-4dd0-9f57-eab63f137a13@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -59,12 +59,12 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:88c97d54-97da-4b8f-b1aa-cfb5d2c03c5e@burslu-program-bulucu
+UID:0e84b68c-a350-449f-8f24-4455fbd84245@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Devlet PhD Bursları (tüm devlet üniversiteleri\, 'borsa di dottorato')
-DESCRIPTION:Ülke: İtalya | Derece: PhD | Fon: Tam Burs\nNot: Çağrılar Mayıs–Temmuz (36. döngü tarzı yıllık)\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.universitaly.it/
+DESCRIPTION:Ülke: İtalya | Derece: PhD | Fon: Tam Burs\nNot: Çağrılar Mayıs–Temmuz (42. döngü tarzı yıllık)\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.universitaly.it/
 URL:https://www.universitaly.it/
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -73,7 +73,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:582b7055-1baf-43bd-a140-a034e323623c@burslu-program-bulucu
+UID:9cad2f3d-8597-4386-85fc-57105d6044d1@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
@@ -87,7 +87,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6bc019c8-e2c6-4ed7-98b9-d52a0e582e00@burslu-program-bulucu
+UID:f0ed8c76-9adf-4428-9fa1-0be1852983a9@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
@@ -101,7 +101,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f40951ac-4c6e-4c75-ae24-5575cfd91c9e@burslu-program-bulucu
+UID:625b3e4b-7d32-43f4-946c-8bee3c651141@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
@@ -115,7 +115,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7af5a810-1a35-422f-a508-657ec3cd5043@burslu-program-bulucu
+UID:f1138889-7d6d-418f-aabb-8e5c423ef859@burslu-program-bulucu
 DTSTAMP:20260718T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
