@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Burslu Program Bulucu//TR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:0c277260-6afe-43c4-83aa-cc50b6464366@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:5c681743-491a-431f-ba56-75c782505992@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): DAAD EPOS / Development-Related Postgraduate Courses
@@ -17,8 +17,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cf6df6f5-dbd0-4653-a405-421ccef0df50@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:a98dfe95-9ef8-471d-be91-89dfe53af662@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Leiden University Excellence Scholarship (LExS)
@@ -31,8 +31,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1180039b-4caf-4e96-8842-016ace1b5cd4@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:2edd1654-aa26-4fb1-88a2-6f4ece5b520e@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Radboud Scholarship Programme
@@ -45,13 +45,13 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:546db92a-d176-4dd0-9f57-eab63f137a13@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
+UID:747f79bd-cba9-4c6a-84ee-9c403941acdf@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
-DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Tam Burs\nNot: Geçmiş yıllarda Türkiye için genellikle Kasım–Aralık\; 2026-27 için resmi tarih Ağustos 2026'da netleşecek\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html
-URL:https://www.sbfi.admin.ch/sbfi/en/home/education/scholarships-and-grants/swiss-government-excellence-scholarships.html
+DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Tam Burs\nNot: 2026-27 için kesin tarih Ağustos 2026'da açıklanacak (başvurular 20 Ağustos 2026'da başlıyor)\; geçmiş yıllarda Türkiye genelde Kasım-Aralık'tı ama teyitli değil\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
+URL:https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
@@ -59,8 +59,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0e84b68c-a350-449f-8f24-4455fbd84245@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:a64c2c6d-7608-4bb6-b8bc-9ff71fe5b778@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Devlet PhD Bursları (tüm devlet üniversiteleri\, 'borsa di dottorato')
@@ -73,8 +73,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9cad2f3d-8597-4386-85fc-57105d6044d1@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:57950ab8-75ae-4722-af01-c3404ad61c94@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Ca' Foscari Venedik / Bologna / Padova – Language Sciences PhD
@@ -87,8 +87,22 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f0ed8c76-9adf-4428-9fa1-0be1852983a9@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:2678d1f1-6eb7-4cad-aca9-7a74bdead228@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Hükümeti (MAECI) Yabancı Öğrenci Bursları
+DESCRIPTION:Ülke: İtalya | Derece: Master | Fon: Tam Burs\nNot: 2026-27 çağrısı 26 Mart 2026'da kapandı\; sonraki çağrı tahminen Mart 2027 (portalden teyit et)\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://studyinitaly.esteri.it/en/call-for-procedure
+URL:https://studyinitaly.esteri.it/en/call-for-procedure
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Hükümeti (MAECI) Yabancı Öğrenci Bursları
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41ac4fa5-c2fd-4ebf-b2ad-bd0105097a03@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): 'la Caixa' Foundation Doctoral INPhINIT Fellowships
@@ -101,8 +115,22 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:625b3e4b-7d32-43f4-946c-8bee3c651141@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:6ca715a5-20e2-4414-a3e7-14c84100fe16@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): FPI / FPU – İspanya Devlet Doktora Sözleşmeleri
+DESCRIPTION:Ülke: İspanya | Derece: PhD | Fon: Maaşlı Kadro\nNot: FPI: 1-30 Eylül 2026 · FPU: 20 Ekim - 20 Kasım 2026\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.aei.gob.es/
+URL:https://www.aei.gob.es/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): FPI / FPU – İspanya Devlet Doktora Sözleşmeleri
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c18a7f10-b60d-43b7-adf4-15b38f0318c5@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Erasmus Mundus Joint Masters (ör. dil eğitimi/çok dillilik programları)
@@ -115,8 +143,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f1138889-7d6d-418f-aabb-8e5c423ef859@burslu-program-bulucu
-DTSTAMP:20260718T000000Z
+UID:74a16b28-7268-47c0-b076-935ff45265e7@burslu-program-bulucu
+DTSTAMP:20260721T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): TELME – Erasmus Mundus Joint Master (Teaching Foreign Languages in Multicultural Environments)
