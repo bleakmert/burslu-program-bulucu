@@ -58,11 +58,11 @@ def build_ics(programs, today=None) -> str:
         "CALSCALE:GREGORIAN",
     ]
 
-    skipped = []
+    recurring = []
     for p in programs:
         month = _first_month_in_hint(p.get("deadline_hint", ""))
         if not month:
-            skipped.append(p["name"])
+            recurring.append(p)
             continue
 
         year = _target_year(month, today)
@@ -94,12 +94,38 @@ def build_ics(programs, today=None) -> str:
             "END:VEVENT",
         ]
 
+    # İlan bazlı / sabit tarihi olmayan pozisyonlar için: sabit bir deadline yerine
+    # her ayın 1'inde tekrarlayan "yeni ilan çıktı mı?" kontrol hatırlatıcısı kur.
+    first_of_next_month = date(today.year + (1 if today.month == 12 else 0),
+                                (today.month % 12) + 1, 1)
+    for p in recurring:
+        uid = f"{uuid.uuid4()}@burslu-program-bulucu"
+        summary = f"🔎 Yeni ilan var mı kontrol et: {p['name']}"
+        description = (
+            f"Ülke: {p['country']} | Derece: {p['degree']} | Fon: {p['funding']}\n"
+            f"Bu pozisyon sabit bir başvuru tarihine sahip değil ('{p.get('deadline_hint', '')}') "
+            f"— düzenli kontrol gerekiyor.\n"
+            f"Kontrol linki: {p['url']}"
+        )
+        lines += [
+            "BEGIN:VEVENT",
+            f"UID:{uid}",
+            f"DTSTAMP:{today.strftime('%Y%m%dT000000Z')}",
+            f"DTSTART;VALUE=DATE:{first_of_next_month.strftime('%Y%m%d')}",
+            f"DTEND;VALUE=DATE:{(first_of_next_month + timedelta(days=1)).strftime('%Y%m%d')}",
+            "RRULE:FREQ=MONTHLY;INTERVAL=1",
+            f"SUMMARY:{_escape(summary)}",
+            f"DESCRIPTION:{_escape(description)}",
+            f"URL:{p['url']}",
+            "END:VEVENT",
+        ]
+
     lines.append("END:VCALENDAR")
 
-    if skipped:
-        print("Tarih çıkarılamayan (etkinlik oluşturulmadı):")
-        for name in skipped:
-            print(f"  - {name}")
+    if recurring:
+        print(f"Sabit tarihi yok, aylık tekrarlayan 'kontrol et' hatırlatıcısı eklendi ({len(recurring)}):")
+        for p in recurring:
+            print(f"  - {p['name']}")
 
     return "\r\n".join(lines) + "\r\n"
 

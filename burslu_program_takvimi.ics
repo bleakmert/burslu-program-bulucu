@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Burslu Program Bulucu//TR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:5c681743-491a-431f-ba56-75c782505992@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:ec924ba8-dfe2-41a2-aff1-337ad149f082@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): DAAD EPOS / Development-Related Postgraduate Courses
@@ -17,8 +17,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a98dfe95-9ef8-471d-be91-89dfe53af662@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:5048ef43-92e0-45aa-9366-19a9ca7446dc@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Leiden University Excellence Scholarship (LExS)
@@ -31,8 +31,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2edd1654-aa26-4fb1-88a2-6f4ece5b520e@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:4276f182-aa4b-4993-8e46-1dd81897f74e@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Radboud Scholarship Programme
@@ -45,8 +45,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:747f79bd-cba9-4c6a-84ee-9c403941acdf@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:4fd0ce27-7607-4ded-909d-c6a904feb220@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
@@ -59,8 +59,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a64c2c6d-7608-4bb6-b8bc-9ff71fe5b778@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:e8f154e5-06f6-4184-9f97-84e9cd9ac174@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Devlet PhD Bursları (tüm devlet üniversiteleri\, 'borsa di dottorato')
@@ -73,8 +73,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:57950ab8-75ae-4722-af01-c3404ad61c94@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:23beb46d-f997-4ad3-b0f8-b7e23651e62a@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Ca' Foscari Venedik / Bologna / Padova – Language Sciences PhD
@@ -87,8 +87,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2678d1f1-6eb7-4cad-aca9-7a74bdead228@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:09a71d10-8ff6-4371-9b69-c43efc43008c@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): İtalya Hükümeti (MAECI) Yabancı Öğrenci Bursları
@@ -101,8 +101,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:41ac4fa5-c2fd-4ebf-b2ad-bd0105097a03@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:07c14bd8-b624-45ce-b4d1-c042a65d592e@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): 'la Caixa' Foundation Doctoral INPhINIT Fellowships
@@ -115,8 +115,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:6ca715a5-20e2-4414-a3e7-14c84100fe16@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:b994f820-6d72-4d1e-9532-1ae8cf5268ee@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): FPI / FPU – İspanya Devlet Doktora Sözleşmeleri
@@ -129,8 +129,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c18a7f10-b60d-43b7-adf4-15b38f0318c5@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:65ab7c13-2bba-45cc-a8f5-22b703ecd242@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Erasmus Mundus Joint Masters (ör. dil eğitimi/çok dillilik programları)
@@ -143,8 +143,8 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:74a16b28-7268-47c0-b076-935ff45265e7@burslu-program-bulucu
-DTSTAMP:20260721T000000Z
+UID:f61aff8a-1100-4baa-ad68-bdb4f838dd19@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): TELME – Erasmus Mundus Joint Master (Teaching Foreign Languages in Multicultural Environments)
@@ -155,5 +155,95 @@ ACTION:DISPLAY
 DESCRIPTION:🎓 Son başvuru yaklaşıyor (yaklaşık): TELME – Erasmus Mundus Joint Master (Teaching Foreign Languages in Multicultural Environments)
 TRIGGER:-P30D
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4e528398-c880-4c25-aef7-e0a3dce0191f@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: DAAD Research Grants – Doctoral Programmes in Germany
+DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Tam Burs\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Genellikle yıllık\, sonbahar') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/
+URL:https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/
+END:VEVENT
+BEGIN:VEVENT
+UID:48195143-49ac-4aa0-8090-319b3dc99e67@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: Universität Hamburg – Doctoral Programme Language Sciences (IGDK vb.)
+DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Kadro ilanına göre değişir') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.uni-hamburg.de/en/forschung/nachwuchs/promotion.html
+URL:https://www.uni-hamburg.de/en/forschung/nachwuchs/promotion.html
+END:VEVENT
+BEGIN:VEVENT
+UID:80a4eaa1-802e-40c2-994f-c08e4b6bd34f@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: Max Planck / IMPRS Doctoral Positions (ör. IMPRS Language Sciences\, Nijmegen)
+DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Sabit tarih yok — kadro ilanı çıktıkça\, yıl boyu') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.mpi.nl/department/imprs-graduate-school/13/vacancies
+URL:https://www.mpi.nl/department/imprs-graduate-school/13/vacancies
+END:VEVENT
+BEGIN:VEVENT
+UID:599c34ec-1c74-4ab1-b7c0-d5fed227bffc@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: Konrad-Adenauer-Stiftung (KAS) Bursu
+DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Yılda 1-2 dönem\, vakfın kendi takvimine göre') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.kas.de/en/web/begabtenfoerderung-und-kultur/international-talent-development
+URL:https://www.kas.de/en/web/begabtenfoerderung-und-kultur/international-talent-development
+END:VEVENT
+BEGIN:VEVENT
+UID:ef8e8f80-2c4f-48af-8e66-b97492d37aa4@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: Friedrich-Ebert-Stiftung (FES) Bursu
+DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Yılda 1-2 dönem\, vakfın kendi takvimine göre') — düzenli kontrol gerekiyor.\nKontrol linki: https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000153
+URL:https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000153
+END:VEVENT
+BEGIN:VEVENT
+UID:0d32e447-5523-4264-add6-7d0b03a6e26c@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: Heinrich-Böll-Stiftung Bursu
+DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Yılda 1-2 dönem\, vakfın kendi takvimine göre') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.boell.de/en/scholarships
+URL:https://www.boell.de/en/scholarships
+END:VEVENT
+BEGIN:VEVENT
+UID:cae42cd4-9ee1-4a03-9456-d642a0a15fe6@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: PhD Positions in the Netherlands (Employed PhD – tüm üniversiteler)
+DESCRIPTION:Ülke: Hollanda | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabit bir başvuru tarihine sahip değil ('Sürekli ilan bazlı') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.academictransfer.com/en/jobs/?q=applied+linguistics
+URL:https://www.academictransfer.com/en/jobs/?q=applied+linguistics
+END:VEVENT
+BEGIN:VEVENT
+UID:47791b6f-b48d-43c5-9f0e-ce754b795f8c@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: University of Groningen – Center for Language and Cognition (CLCG) PhD
+DESCRIPTION:Ülke: Hollanda | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabit bir başvuru tarihine sahip değil ('İlan bazlı') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.rug.nl/research/clcg/
+URL:https://www.rug.nl/research/clcg/
+END:VEVENT
+BEGIN:VEVENT
+UID:f7a628f5-83f2-477c-a9c0-fe69ede6d3c6@burslu-program-bulucu
+DTSTAMP:20260816T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+RRULE:FREQ=MONTHLY;INTERVAL=1
+SUMMARY:🔎 Yeni ilan var mı kontrol et: University of Zurich / Bern / Geneva – Doctoral Positions (Assistant kadroları)
+DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabit bir başvuru tarihine sahip değil ('İlan bazlı') — düzenli kontrol gerekiyor.\nKontrol linki: https://www.jobs.uzh.ch/
+URL:https://www.jobs.uzh.ch/
 END:VEVENT
 END:VCALENDAR

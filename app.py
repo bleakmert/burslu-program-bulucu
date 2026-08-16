@@ -15,6 +15,7 @@ from urllib.parse import quote_plus
 import streamlit as st
 
 from data import COUNTRIES, PROGRAMS, SEARCH_PORTALS
+from tracker import STATUSES, get_entry, set_entry, set_checked
 
 # Veri: bkz. data.py
 
@@ -38,6 +39,7 @@ with st.sidebar:
         default=["Tam Burs", "Maaşlı Kadro"],
     )
     keyword = st.text_input("Anahtar kelime (isteğe bağlı)", placeholder="ör. linguistics, education")
+    hide_dropped = st.checkbox("Vazgeçilenleri gizle", value=True)
 
     st.divider()
     st.subheader("🔎 Canlı arama linkleri")
@@ -61,17 +63,33 @@ for p in PROGRAMS:
         continue
     if kw and kw not in " ".join(str(v) for v in p.values()).lower():
         continue
+    status = get_entry(p["name"])["status"]
+    if hide_dropped and status == "Vazgeçildi":
+        continue
     results.append(p)
 
 st.subheader(f"Sonuçlar ({len(results)} program/burs)")
+
+status_counts = {}
+for p in PROGRAMS:
+    s = get_entry(p["name"])["status"]
+    status_counts[s] = status_counts.get(s, 0) + 1
+if any(v for k, v in status_counts.items() if k != "İncelenmedi"):
+    st.caption(" · ".join(f"{k}: {v}" for k, v in status_counts.items() if v))
 
 if not results:
     st.info("Filtrelere uyan sonuç yok. Filtreleri genişletmeyi deneyin.")
 
 FUNDING_COLORS = {"Tam Burs": "🟢", "Maaşlı Kadro": "🔵", "Burs (kısmi/değişken)": "🟡"}
+STATUS_ICON = {
+    "İncelenmedi": "⚪", "Değerlendiriliyor": "🔍", "Hazırlanıyor": "✏️",
+    "Onay bekliyor": "🕓", "Başvuruldu": "✅", "Vazgeçildi": "❌",
+}
 
 for p in results:
-    with st.expander(f"{FUNDING_COLORS[p['funding']]} {p['name']} — {p['country']} · {p['degree']}"):
+    entry = get_entry(p["name"])
+    status_icon = STATUS_ICON.get(entry["status"], "⚪")
+    with st.expander(f"{status_icon} {FUNDING_COLORS[p['funding']]} {p['name']} — {p['country']} · {p['degree']}"):
         c1, c2 = st.columns([2, 1])
         with c1:
             st.markdown(f"**Alan:** {p['field']}")
@@ -79,12 +97,28 @@ for p in results:
             st.markdown(f"**Sponsorluk / vize:** {p['sponsor_note']}")
             if p.get("requirements"):
                 st.markdown("**📋 Başvuru için gerekenler:**")
+                checked = entry.get("checked", {})
                 for item in p["requirements"]:
-                    st.checkbox(item, key=f"{p['name']}::{item}")
+                    key = f"{p['name']}::{item}"
+                    was_checked = checked.get(item, False)
+                    now_checked = st.checkbox(item, value=was_checked, key=key)
+                    if now_checked != was_checked:
+                        set_checked(p["name"], item, now_checked)
         with c2:
             st.markdown(f"**Fon:** {p['funding']}")
             st.markdown(f"**Son başvuru (yaklaşık):** {p['deadline_hint']}")
             st.link_button("Resmi sayfa →", p["url"])
+            st.markdown("**📌 Başvuru durumu**")
+            new_status = st.selectbox(
+                "Durum", STATUSES, index=STATUSES.index(entry["status"]),
+                key=f"{p['name']}::status", label_visibility="collapsed",
+            )
+            new_note = st.text_area(
+                "Kişisel not", value=entry.get("note", ""), key=f"{p['name']}::note",
+                placeholder="ör. danışmandan cevap bekleniyor", height=70,
+            )
+            if new_status != entry["status"] or new_note != entry.get("note", ""):
+                set_entry(p["name"], new_status, new_note)
 
 st.divider()
 st.markdown(
