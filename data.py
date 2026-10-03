@@ -218,7 +218,7 @@ PROGRAMS = [
         "field": "Tüm Alanlar",
         "funding": "Tam Burs",
         "fit": "Türkiye kotası var; aylık ~1.920 CHF, sigorta, harç muafiyeti. Sosyal bilimler başvuruları kabul edilir.",
-        "sponsor_note": "Doğrulandı (2027-28 döngüsü, Ekim 2026 teyidi): SÜREÇ DİJİTAL — başvuru go.eskas.ch (ESKAS/GO ESKAS portalı) üzerinden yapılıyor, büyükelçiliğe fiziksel evrak teslimi yok. 2027-28 döngüsü için başvurular 20 Ağustos 2026'da açıldı, son başvuru tarihi 20 Kasım 2026 (bu döngü şu anda AÇIK). Kapsam yalnızca Doktora (PhD) ve Araştırma Bursu (Research Fellowship) — Lisans/Yüksek Lisans/sanat programları kapsam dışı.",
+        "sponsor_note": "Doğrulandı (2027-28 döngüsü, Ekim 2026 teyidi): SÜREÇ DİJİTAL — başvuru go.eskas.ch (ESKAS/GO ESKAS portalı) üzerinden yapılıyor, büyükelçiliğe fiziksel evrak teslimi yok. 2027-28 döngüsü için başvurular 20 Ağustos 2026'da açıldı; SBFI genel sayfası son tarihi 20 Kasım 2026 olarak veriyor AMA son tarih başvuranın ülkesine göre değişiyor, tek bir dünya çapında tarih yok. İsviçre'nin Ankara Büyükelçiliği sayfasına göre Türkiye'den başvurular için süreç 1 Eylül 2026'da başlıyor ve son tarih 30 Kasım 2026 (bu bilgi arama motoru önbelleği üzerinden doğrulandı, ankara@eda.admin.ch ile teyit edilmesi önerilir). Kapsam yalnızca Doktora (PhD) ve Araştırma Bursu (Research Fellowship) — Lisans/Yüksek Lisans/sanat programları kapsam dışı.",
         "requirements": [
             "İmzalı FCS başvuru formu — artık go.eskas.ch üzerinden dijital dolduruluyor",
             "Yayın/ödül dahil detaylı CV",
@@ -231,7 +231,7 @@ PROGRAMS = [
             "Not: fiziksel/ıslak imzalı evrak toplama artık gerekmeyebilir (portal dijitalleşti) — go.eskas.ch üzerinde hangi belgelerin dijital yükleneceği netleşince kontrol listesi kesinleşecek",
         ],
         "url": "https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships",
-        "deadline_hint": "2027-28 döngüsü: başvurular 20 Ağustos 2026'da açıldı, son tarih 20 Kasım 2026 (şu an açık, Doktora/Araştırma Bursu için)",
+        "deadline_hint": "2027-28 döngüsü: başvurular 20 Ağustos 2026'da açıldı. Genel (SBFI) son tarih 20 Kasım 2026, ama Türkiye'ye özel son tarih (Ankara Büyükelçiliği üzerinden) 30 Kasım 2026 — başvurudan önce ankara@eda.admin.ch ile teyit edilmeli",
     },
     {
         "name": "University of Zurich / Bern / Geneva – Doctoral Positions (Assistant kadroları)",

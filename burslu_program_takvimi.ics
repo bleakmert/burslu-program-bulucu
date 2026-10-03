@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Burslu Program Bulucu//TR
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:8acee2c6-d473-46af-a257-c290411c07de@burslu-program-bulucu
+UID:5dbe2e74-d5dc-4a45-8e74-eb36c231b0d4@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270802
@@ -17,7 +17,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:7dbf4568-a978-45dd-8dbc-13fe6a59a5c5@burslu-program-bulucu
+UID:d44772a5-c85d-4973-b673-6aa76b6d366f@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
@@ -31,7 +31,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:987fb5c6-01c4-4e05-966e-c9bfc1049335@burslu-program-bulucu
+UID:ac454344-d00c-45dd-b018-4502dea5620c@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
@@ -45,12 +45,12 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:2a187388-4020-4882-a058-9eda9fe756e8@burslu-program-bulucu
+UID:47914e68-51cf-4029-a433-a7a57f592185@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270802
 SUMMARY:🎓 Son başvuru yaklaşıyor (yaklaşık): Swiss Government Excellence Scholarships
-DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Tam Burs\nNot: 2027-28 döngüsü: başvurular 20 Ağustos 2026'da açıldı\, son tarih 20 Kasım 2026 (şu an açık\, Doktora/Araştırma Bursu için)\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
+DESCRIPTION:Ülke: İsviçre | Derece: PhD | Fon: Tam Burs\nNot: 2027-28 döngüsü: başvurular 20 Ağustos 2026'da açıldı. Genel (SBFI) son tarih 20 Kasım 2026\, ama Türkiye'ye özel son tarih (Ankara Büyükelçiliği üzerinden) 30 Kasım 2026 — başvurudan önce ankara@eda.admin.ch ile teyit edilmeli\nBu tarih kesin değildir — başvurmadan önce resmi sayfadan teyit et: https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
 URL:https://www.sbfi.admin.ch/en/swiss-government-excellence-scholarships
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -59,7 +59,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0dc41cfe-5f1c-4b0a-a473-d46a052080a8@burslu-program-bulucu
+UID:e8882178-f619-42a6-ad42-a8a0e01658db@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
@@ -73,7 +73,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d1dff08d-5902-4b90-9a5f-f3586997752e@burslu-program-bulucu
+UID:18dc9598-383a-418b-bdb8-96463f17282e@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
@@ -87,7 +87,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:ace18835-256c-482f-b238-817962eda73a@burslu-program-bulucu
+UID:79ac7fff-c29b-4ea6-9bc6-e51749213715@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
@@ -101,7 +101,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:08d6496c-8b14-4eb4-8e0d-ab15db474c20@burslu-program-bulucu
+UID:dacbff93-147f-4f59-bd39-5511d76e3361@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
@@ -115,7 +115,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5393db38-027f-465c-95be-e0665c6817dc@burslu-program-bulucu
+UID:7501435a-e4cb-4ec6-ad8e-8081ab737f69@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
@@ -129,7 +129,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c7f5866c-6daf-4f34-a1b7-59654d75802a@burslu-program-bulucu
+UID:bac49697-08c2-48f6-b8f8-dadef6ff50e0@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
@@ -143,7 +143,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:732e0a40-3635-418f-a77b-a585fa9d0d49@burslu-program-bulucu
+UID:8b26fec0-554b-42bf-bef6-420c795dca80@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
@@ -157,7 +157,7 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:112594eb-a5f8-4bfc-8ff8-b384bfa1600c@burslu-program-bulucu
+UID:95c9d788-4bdd-470a-be21-1b9a3201cf07@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -167,7 +167,7 @@ DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Tam Burs\nBu pozisyon sabit bir 
 URL:https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/
 END:VEVENT
 BEGIN:VEVENT
-UID:c05d74c3-c008-44fe-b9a2-bdb25abc9f1a@burslu-program-bulucu
+UID:7bae1481-194f-4203-aac7-3c9e525c6972@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -177,7 +177,7 @@ DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabi
 URL:https://www.uni-hamburg.de/en/forschung/nachwuchs/promotion.html
 END:VEVENT
 BEGIN:VEVENT
-UID:e145a116-fcc4-4b13-bc86-d03fc4780b02@burslu-program-bulucu
+UID:4a6354dd-8c48-4eb4-8037-4492cae72641@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -187,7 +187,7 @@ DESCRIPTION:Ülke: Almanya | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sabi
 URL:https://www.mpi.nl/department/imprs-graduate-school/13/vacancies
 END:VEVENT
 BEGIN:VEVENT
-UID:ea07e91c-ba9e-4e07-8704-f215dfcaaf41@burslu-program-bulucu
+UID:ce0ab2a1-04a3-4736-a901-038da4ee142e@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -197,7 +197,7 @@ DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon s
 URL:https://www.kas.de/en/web/begabtenfoerderung-und-kultur/international-talent-development
 END:VEVENT
 BEGIN:VEVENT
-UID:9041a172-bfbb-4e20-901c-e3ae10710233@burslu-program-bulucu
+UID:566fe33c-7dfc-4aea-81d0-40ade185d718@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -207,7 +207,7 @@ DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon s
 URL:https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=10000153
 END:VEVENT
 BEGIN:VEVENT
-UID:633c59f4-99b9-415f-b589-b37b2841fde9@burslu-program-bulucu
+UID:cf3f62d5-f546-4aac-9541-7be1790d8fd4@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -217,7 +217,7 @@ DESCRIPTION:Ülke: Almanya | Derece: Master + PhD | Fon: Tam Burs\nBu pozisyon s
 URL:https://www.boell.de/en/scholarships
 END:VEVENT
 BEGIN:VEVENT
-UID:5fcf3c43-fd2a-4079-908e-ba03160d20a7@burslu-program-bulucu
+UID:7e6947a6-67e7-46ef-9532-95d1dc7d020e@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -227,7 +227,7 @@ DESCRIPTION:Ülke: Hollanda | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sab
 URL:https://www.academictransfer.com/en/jobs/?q=applied+linguistics
 END:VEVENT
 BEGIN:VEVENT
-UID:99b889f8-873e-4271-8c7d-b3f9f0c22d89@burslu-program-bulucu
+UID:a3b819d5-1986-4523-bd1d-712e67012947@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
@@ -237,7 +237,7 @@ DESCRIPTION:Ülke: Hollanda | Derece: PhD | Fon: Maaşlı Kadro\nBu pozisyon sab
 URL:https://www.rug.nl/research/clcg/
 END:VEVENT
 BEGIN:VEVENT
-UID:73a82dfc-aaed-453f-a12e-339dc340507c@burslu-program-bulucu
+UID:7dcc8d51-ff0a-4cd2-8daa-8e6404574461@burslu-program-bulucu
 DTSTAMP:20261003T000000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
